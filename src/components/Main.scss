@@ -1,0 +1,93 @@
+.main{
+    margin-top: 20px;
+  .slide-item{
+    background-image: url('../assets/imgs/turistan.png');
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    border-radius: 50px;
+    .slide-item-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        h1{
+          margin-bottom: 10px;
+          width: 551.73px;
+        padding: 10px 0;
+          top: -1779.06px;
+          left: -523.91px;
+          gap: 0px;
+          border: 1px 0px 0px 0px;
+          opacity: 0px;
+          font-family: Roboto;
+          font-size: 66px;
+          font-weight: 400;
+          line-height: 77.34px;
+          text-align: left;
+          color: #151515;
+                    
+
+          span{
+            font-family: Roboto;
+            font-size: 66px;
+            font-weight: 400;
+            line-height: 77.34px;
+            text-align: left;
+            color: #656293;      
+          }
+        }
+  
+    }
+  }
+  .slide-items{
+    background-image: url('../assets/imgs/tur1.jpg');
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    border-radius: 50px;
+    .slide-item-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        h1{
+          margin-bottom: 10px;
+          width: 551.73px;
+        padding: 10px 0;
+          top: -1779.06px;
+          left: -523.91px;
+          gap: 0px;
+          border: 1px 0px 0px 0px;
+          opacity: 0px;
+          font-family: Roboto;
+          font-size: 66px;
+          font-weight: 400;
+          line-height: 77.34px;
+          text-align: left;
+          color: #151515;
+                    
+
+          span{
+            font-family: Roboto;
+            font-size: 66px;
+            font-weight: 400;
+            line-height: 77.34px;
+            text-align: left;
+            color: #656293;      
+          }
+        }
+  
+    }
+  }
+}

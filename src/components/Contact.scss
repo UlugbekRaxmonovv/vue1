@@ -1,0 +1,33 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    .contact_alls{
+        max-width: 491px;
+        width: 100%;
+        height: 100%;
+        background: #18A0FB;
+        padding: 20px 40px;
+        .contact_row{   
+            padding: 20px 40px;
+        }
+    }
+    .contact_all{
+         .input_{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .input_rows{
+                max-width: 286.14px;
+                width: 100%;
+                height: 58.88px;
+                input{
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px solid gray;
+                }
+            }
+        }
+    }
+    }

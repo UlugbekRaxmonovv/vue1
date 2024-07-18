@@ -1,0 +1,112 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    gap: 20px;
+    .card{
+        padding: 0px 20px;
+        width: 298px;
+        height: 465.38px;
+        border-radius: 15px;
+        border: 1px solid #ECECEC;    
+        background: #FFFFFF;
+        img{
+            width: 246px;
+            height: 246px;
+            object-fit: contain;
+            border-radius: 15px 0px 0px 0px;
+            transition: all .15s linear;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.02);
+            }
+            
+        }
+        p{
+            font-size: 18px;
+            color: #555555;
+            margin-top: 10px;
+            display:-webkit-box ;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .svg{
+            display: flex;
+            align-items: center;
+            width: 100px;
+            justify-content: space-between;
+            padding: 5px 0;
+            svg{
+                width: 20px;
+                fill: gold;
+               
+            }
+            .nv_link{
+                p{
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #B6B6B6;
+                    
+                }
+            }
+        }
+        h5{
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #B6B6B6;
+            span{
+                font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left; 
+            color: #3BB77E;
+
+            }
+        }
+        .price{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .price_all{
+                width: 84.91px;
+                height: 36px;
+                padding: 9px 19.64px 10px 20px;
+                border-radius: 4px;
+                background: #F53E32;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                gap: 5px;
+                .btn{
+                    display: flex;
+                    align-items: center;
+                    .font{
+                        font-family: Lato;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        color: #FFFFFF;
+                    }
+                    p{
+                        font-family: Lato;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        color: #FFFFFF;
+                        margin-top: 1px;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+}
