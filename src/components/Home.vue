@@ -3,8 +3,8 @@
 <Main />
 <Products />
 <WeForVue/>
-<Contact/>
 </div>
+<Footer/>
      
 </template>
 
@@ -12,5 +12,5 @@
 import Main from '../components/Main.vue'
 import WeForVue from '../components/WeFor.vue'
 import Products from '../components/Products.vue'
-import Contact from '../components/Contact.vue'
+import Footer from '../components/Footer.vue'
 </script>
